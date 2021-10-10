@@ -20,7 +20,7 @@ function Projects() {
     {
       name: "tvmaze",
       link: "./images/tv.png",
-      src: "https://yadharthscrapping.netlify.app/",
+      src: "https://yadharthtvmaze.netlify.app/",
     },
     {
       name: "survey form",
