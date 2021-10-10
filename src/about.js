@@ -51,6 +51,8 @@ function About() {
             class="me"
             src="./images/me.jpg"
             style={{ objectFit: "cover" }}
+            title="Yadharth GC"
+            alt="Hari Yadharth gc"
           ></img>
         </div>
       </div>

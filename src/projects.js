@@ -67,7 +67,7 @@ function Projects() {
           return (
             <div className="col-lg-2" id="col">
               <a href={data.src} target="_blank">
-                <img src={data.link} class="imgs" />
+                <img src={data.link} class="imgs" title={data.name} />
               </a>
               <div style={{ textAlign: "center" }}>{data.name}</div>
             </div>
