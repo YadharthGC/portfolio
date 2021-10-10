@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
+/* #home {
+    margin-top: 10%;
+    background-image: url(./images/bg.jpg);
+    border-radius: 75px;
+    color: #1E90FF;
+} */
+
+#second {
+    display: flex;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#first {
+    padding-left: 10%;
+    font-size: 130%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img {
+    height: 131%;
+    width: 60%;
+    object-fit: cover;
+    border-radius: 2px;
+    background-image: url(./images/bg.jpg);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.imgs {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: solid 1px black;
 }
 
-.App-link {
-  color: #61dafb;
+#b {
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/*  =========================================*/
+
+.container-fluid {
+    color: white;
+}
+
+.ok {
+    display: flex;
+    justify-content: end;
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+.so {
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+#li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.im {
+    color: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gc {
+    font-size: 94px;
+    line-height: 65px;
+    font-family: 'Cinzel', serif;
+}
+
+.exp {
+    border: solid 1px white;
+    color: white;
+    width: fit-content;
+    font-size: 35px;
+    font-family: 'Cinzel', serif;
+}
+
+.exps {
+    display: flex;
+    justify-content: end;
+}
+
+#home {
+    margin-top: 1%;
+}
+
+#about {
+    color: white
+}
+
+.intro {
+    font-family: 'Cinzel', serif;
+    font-size: 29px;
+}
+
+.me {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#expl {
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+}
+
+.span {
+    border: solid 1px white;
+    color: white;
+}
+
+.con {
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+.imgss {
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+    border: solid 2px white
+}
+
+.tk {
+    margin-top: 2%;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.expsa {
+    display: flex;
+    justify-content: start;
+}
+
+#col {
+    color: white;
+    font-family: 'Cinzel', serif;
 }
