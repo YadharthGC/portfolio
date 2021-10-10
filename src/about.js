@@ -34,8 +34,7 @@ function About() {
           Linux operating systems. I have the knowlege about HTML,CSS and
           Bootstrap. With my native language Tamil, I am fine with the other two
           languages, English and Telugu. Last but not least i love travelling
-          and i use to play badminton for my health. If I am given a chance in
-          your company I am willing to relocate.
+          and i use to play badminton for my health.
           <div className="expsa" style={{ marginTop: "1%" }}>
             <a
               href="https://drive.google.com/file/d/1BmOHa8kGYeJXg0sHgd7vhZm24MEtqNSs/view?usp=drivesdk"
