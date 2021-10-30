@@ -3,6 +3,11 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function Projects() {
   let datas = [
     {
+      name: "online service booking",
+      link: "./images/booking.png",
+      src: "https://yadharthcapstone.netlify.app/",
+    },
+    {
       name: "Web scrap",
       link: "./images/scrap.png",
       src: "https://yadharthscrapping.netlify.app/",
@@ -59,13 +64,13 @@ function Projects() {
       </div>
       <div class="con">
         <h3>
-          <u>These are some of my projects i did of my own</u>
+          <u>These are some of the websites i did of my own</u>
         </h3>
       </div>
       <div className="row">
         {datas.map((data) => {
           return (
-            <div className="col-lg-2" id="col">
+            <div className="col-lg-4" id="col" style={{ textAlign: "center" }}>
               <a href={data.src} target="_blank">
                 <img src={data.link} class="imgs" title={data.name} />
               </a>

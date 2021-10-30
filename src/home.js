@@ -20,13 +20,17 @@ function Home() {
           <span className="span"> Contacts</span>
         </Link>
       </div>
+
       <div className="im">
         <div className="gc">
           <div style={{ fontSize: "50px" }}>hello, I'M</div>
-          <div>HARI YADHARTH</div>
+          <div style={{ fontSize: "379%" }}>
+            <u>HARI YADHARTH GC</u>
+          </div>
           <div style={{ fontSize: "35px" }}>I MAKE BEAUTIFUL WEBSITES</div>
         </div>
       </div>
+
       <div className="exps">
         <Link to="/about" style={{ textDecoration: "none" }}>
           <div className="exp">&nbsp;Explore&#8594;&nbsp;</div>

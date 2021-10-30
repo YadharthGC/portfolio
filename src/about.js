@@ -28,7 +28,7 @@ function About() {
       </div>
       <hr></hr>
       <div class="row" style={{ marginTop: "2%" }}>
-        <div class="col-8" id="expl">
+        <div class="col-lg-8" id="expl">
           I am good with 3 programming languages that include c,c++, and
           javascript(reactjs and nodejs). I am comfortable with windows and
           Linux operating systems. I have the knowlege about HTML,CSS and
@@ -41,12 +41,14 @@ function About() {
               style={{ textDecoration: "none" }}
               target="_blank"
             >
-              <div className="exp">&nbsp;View my Resume&nbsp;</div>
+              <div className="exp" style={{ backgroundColor: "lightblue" }}>
+                &nbsp;View my Resume&nbsp;
+              </div>
             </a>
           </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-lg-4">
           <img
             class="me"
             src="./images/me.jpg"
