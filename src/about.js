@@ -37,7 +37,7 @@ function About() {
           and i use to play badminton for my health.
           <div className="expsa" style={{ marginTop: "1%" }}>
             <a
-              href="https://drive.google.com/file/d/1BmOHa8kGYeJXg0sHgd7vhZm24MEtqNSs/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1lbHCpoc6hFkUJDIYor5Y9eb7ku91ippD/view"
               style={{ textDecoration: "none" }}
               target="_blank"
             >
