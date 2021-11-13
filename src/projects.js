@@ -23,6 +23,11 @@ function Projects() {
       src: "https://yadharthpricecart.netlify.app/",
     },
     {
+      name: "YouTube Homepage",
+      link: "./images/uhome.png",
+      src: "https://yadharthutubehomepage.netlify.app/",
+    },
+    {
       name: "tvmaze",
       link: "./images/tv.png",
       src: "https://yadharthtvmaze.netlify.app/",
